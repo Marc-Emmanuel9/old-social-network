@@ -1,0 +1,33 @@
+.bar {
+    display: flex;
+    align-items: center;
+    width: 180px;
+    height: 26px;
+}
+
+.bar[selected] {
+    border: 1px #dbdbdb;
+    border-radius: 5px;
+    border-style: solid;
+
+    background-color: white;
+}
+
+.icon {
+    padding-left: 10px;
+}
+.text {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 28,13px;
+    padding-left: 51px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 51px;
+    margin-top: 21px;
+}
